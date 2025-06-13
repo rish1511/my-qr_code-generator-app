@@ -26,7 +26,7 @@ const generate=()=>{
 }
   return (
     <>
-    <h2>Qr-Code-Genertor:</h2>
+    <h2 style={{color : 'white'}}>Qr-Code-Genertor:</h2>
       <div className='rish'>
         <div> <input type="search" placeholder='Type your url' value={url} onChange={handle} onKeyDown={(e) => {
     if (e.key === 'Enter') generate();

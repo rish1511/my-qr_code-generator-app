@@ -2,13 +2,13 @@ body{
 margin: 0%;
 padding: 0%;
 box-sizing: border-box;
-height: 600px;
+height: 100vh;
 display: flex;
 justify-content: center;
-background-color:honeydew;
+background: linear-gradient(to right top ,rgb(171, 236, 171) , lightgreen,rgb(77, 143, 77));
 }
 .rish{
-    height: 90%;
+    height: 85vh;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -39,8 +39,8 @@ background-color:honeydew;
     border-radius: 10px;
     border: 1px solid green;
     padding-left: 10px;
-    background: white;
-    color: black;
+    background: transparent;
+    color: whitesmoke;
     font-weight: bolder;
     cursor: text;
 }
@@ -49,15 +49,16 @@ background-color:honeydew;
     height: 50px;
     border-radius: 10px;
     border: none;
-    background: rgb(18, 247, 132) ;
-    color: darkblue;
+    background:  whitesmoke;
+    color: rgb(7, 170, 89);
+    font-weight: bolder;
     font-weight: bolder;
     cursor:grabbing;
 }
 .rish div{
     display: flex;
     gap: 20px;
-    background-color:honeydew;
+    /* background-color:honeydew; */
     justify-content: center;
     align-items: center;
     /* border: 1px solid rgb(7, 7, 7); */
